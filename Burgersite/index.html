@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="main.css">
+    <title>Burger World</title>
+</head>
+<body id="main">
+    <div id="overlay" style="display: none;" >
+        <div class="modal">
+            <i id ="close-btn"class="far fa-times-circle close"></i>
+            <h3 class="modal__title">Choose a location:</h3>
+            <ul class="options">
+                <li class="option-item"><button id="riverside">108 Riverside Ave 501
+                    Jacksonville, FL 32202</button></li>
+                <li class="option-item"><button id ="town-center"href="order.html">4890 Big Island Drive
+                    Jacksonville, FL 32246</button></li> 
+               <li class="option-item"><button id="jax-beach"href="order.html">628 Atlantic Blvd.
+                Neptune Beach, FL 32266</button></li>     
+                       
+            </ul>
+        </div>
+    </div>    
+
+    <header>
+        <nav>
+            <a href="index.html"><img class ="logo" src="images/burgerlogo.png" alt="burger logo"></a>
+            <button class="nav-toggle" aria-label="toggle-navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class ="nav-bar">
+                <li class="nav-item"><a href="#index.html">Home</a></li>
+                <li class="nav-item"><a href="#location">Locations</a></li>
+                <li class="nav-item"><a href="#our-hours">Hours</a></li>
+                
+            </ul>
+            <button class="nav-cta btn order">ORDER NOW</button>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="main-container">
+            <h1 class="main--title">Take a trip around the world with us</h1>
+            <p class ="main--subtitle">Enjoy a unique burger experience with our burgers from every corner of the world.</p>
+            <a href="#" class="main-cta btn order">Find a location</a>
+        </div>
+    
+
+
+    </main>
+    <section class="section--grid">
+        <div class="grid-item">
+            <img src="/images/burger-delivery.jpg" alt="Juicy burger on a plate">
+        </div>
+        <div class="grid-item text">
+            <h2 class="grid-item__title">Free delivery</h2>
+            <p class="grid-item__description free">Enjoy free delivery at select locations near you!!</p>
+            <a href="#"class="btn cta-grid order">Order now</a>
+        </div>
+        <div class="grid-item favs">
+            <h2 class = "grid-item__title">Fan Favs</h2>
+            <p class="grid-item__description">Just a few of our global favorites!! You won't be disappointed.</p>
+            <a href="#" class="btn cta-grid">Order now</a>
+        </div>
+        <div class="grid-item favs">
+            <img src="/images/burgerfav.jpg" alt="juicy burgers">
+        </div>
+        <div id="location" class="grid-item">
+            <img src="/images/restaurant.jpg" alt="picture of the restaurant">
+        </div>
+        <div class="grid-item text ">
+            <h2 class="grid-item__title find">Find one in your neighborhood</h2>
+            <ul class="options">
+                <li class="option-item address">108 Riverside Ave 501
+                    Jacksonville, FL 32202</li>
+                <li class="option-item address">4890 Big Island Drive
+                    Jacksonville, FL 32246</li> 
+               <li class="option-item address">628 Atlantic Blvd.
+                Neptune Beach, FL 32266</li>     
+                       
+            </ul>
+
+        </div>
+
+    </section>
+    <section id="our-hours"class="hours">
+        <h2 class="hours__title">Hours of operation</h2>
+        <ul class="hours-list">
+            <li class="hours-item">Monday: 11am-9pm</li>
+            <li class="hours-item">Tuesday: 11am-9pm</li>
+            <li class="hours-item">Wednesday: 11am-9pm</li>
+            <li class="hours-item">Thursday: 11am-9pm</li>
+            <li class="hours-item">Friday: 11am-10pm</li>
+            <li class="hours-item">Saturday: 11am-10pm</li>
+            <li class="hours-item">Sunday: 11am-8pm</li>
+        </ul>
+
+    </section>
+    <section id="about" class="about-us">
+        <h2 class="about__title">About us</h2>
+        <div class="about-container">
+            <img class ="about-img"src="/images/burgershare.jpg" alt="Burger-world founders">
+            <p class="about-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id ornare risus. Mauris consequat odio vel fringilla sodales. Praesent ac rhoncus orci. Phasellus metus risus, elementum non enim rhoncus, feugiat ullamcorper eros. Etiam bibendum vehicula faucibus. Nullam luctus sagittis lorem vel maximus. Donec non ultricies ligula.
+    
+            </p>  
+        </div>
+        
+    </section>
+    <footer>
+        <h3 id="contact" class="footer__title">Follow us!!</h3>
+        <ul class="social-icon">
+            <li class="social"><i class="fab fa-facebook"></i></li>
+            <li class="social"><i class="fab fa-instagram"></i></li>
+            <li class="social"><i class="fab fa-twitter"></i></li>
+        </ul>
+        
+
+    </footer>
+    <script type="module" src="main.js"></script>
+</body>
+
+
+
+   
+   
+</html>
