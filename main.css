@@ -155,7 +155,7 @@ header{
 /* responsive nav */
 
 @media (min-width:800px){
-    nav{
+    .nav{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -462,6 +462,7 @@ footer{
     font-size: 1.4rem;
 }
 
+
 .menu img{
     max-width: 600px;
     width: 60%;
@@ -705,4 +706,22 @@ form input{
 
 span{
     color: var(--green);
+}
+
+.sticky{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-bar2{
+    display: flex;
+
+    width:100%;
+    justify-content: space-between;
+}
+#location{
+    color: white;
+}
+a:visited{
+    color: white;
 }
